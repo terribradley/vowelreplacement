@@ -13,6 +13,6 @@ $(document).ready(function () {
       else puzzleString += userInput[inputIndex];
       isVowel=false;
    }
-   console.log(puzzleString);
+   $("#results").append("<p>"+puzzleString+"</p>");
  });
 });
